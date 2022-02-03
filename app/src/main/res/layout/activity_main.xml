@@ -9,16 +9,16 @@
     tools:context=".MainActivity">
 
     <com.airbnb.lottie.LottieAnimationView
-        app:lottie_rawRes="@raw/facebook"
+        app:lottie_rawRes="@raw/youtube"
         app:lottie_loop="true"
         app:lottie_autoPlay="true"
         android:layout_width="300dp"
         android:layout_height="300dp"/>
     <TextView
-        android:text="Facebook"
+        android:text="Youtube"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:textColor="#1E88E5"
+        android:textColor="#f00"
         android:layout_marginTop="50dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
