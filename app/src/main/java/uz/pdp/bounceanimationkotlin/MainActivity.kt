@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         val imageView = findViewById<ImageView>(R.id.image)
 
         button.setOnClickListener {
-            val animation = AnimationUtils.loadAnimation(applicationContext,R.anim.bounce)
+            val animation = AnimationUtils.loadAnimation(applicationContext,R.anim.sequential)
             imageView.startAnimation(animation)
         }
     }
