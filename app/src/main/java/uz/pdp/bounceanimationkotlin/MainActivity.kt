@@ -11,16 +11,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        initViews()
-    }
 
-    private fun initViews() {
-        val button = findViewById<Button>(R.id.button)
-        val imageView = findViewById<ImageView>(R.id.image)
-
-        button.setOnClickListener {
-            val animation = AnimationUtils.loadAnimation(applicationContext,R.anim.together)
-            imageView.startAnimation(animation)
-        }
     }
 }

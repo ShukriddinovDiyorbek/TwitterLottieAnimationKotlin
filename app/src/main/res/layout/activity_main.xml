@@ -8,15 +8,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/image"
-        android:src="@drawable/image"
-        android:scaleType="centerCrop"
+    <com.airbnb.lottie.LottieAnimationView
+        app:lottie_rawRes="@raw/facebook"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
         android:layout_width="300dp"
         android:layout_height="300dp"/>
-    <Button
-        android:id="@+id/button"
-        android:text="Together"
+    <TextView
+        android:text="Facebook"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#1E88E5"
         android:layout_marginTop="50dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
